@@ -39,6 +39,7 @@ body {
   justify-content: center;
 }
 .single-product {
+  background-color: rgb(240, 240, 240);
   padding: 10px;
   transition: 0.6s;
 }
