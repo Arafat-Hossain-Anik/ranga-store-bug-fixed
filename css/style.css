@@ -1,7 +1,7 @@
+/*-----------body design------------*/
 body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
-  max-width: 100%;
 }
 /*-------set sub-title font size-----*/
 .sub-title{
@@ -14,10 +14,8 @@ body {
   text-align: center;
   width: 100%;
   margin: auto;
-  align-items: center;
-  justify-content: center;
 }
-/*-------------single product container design-----------*/
+/*-------------single product design-----------*/
 .single-product {
   background-color: rgb(248, 255, 250) !important;
   padding:10px;

@@ -21,7 +21,6 @@ const addRatings = ratings => {
 }
 // show all product in UI 
 const showProducts = (products) => {
-  console.log(products);
   // getting data from products array
   products.forEach((product) => {
     const image = product.image;
@@ -31,12 +30,12 @@ const showProducts = (products) => {
     // calling ratings function
     const ratings = addRatings(product.rating.rate);
     div.innerHTML = `
-    <div class="single-product card">
+    <div class="single-product card h-100">
       <div>
         <img class="product-image" src=${image}></img>
       </div>
       <div class='card-body'>
-        <h5 style="height:100px">${product.title}</h5>
+        <h5>${product.title}</h5>
         <p>Category: ${product.category}</p>
         <p class='rating'><span class='rating-text'>${product.rating.rate}</span> ${ratings.join(' ')} 
         <span class='rating-text'>(${product.rating.count})</span></p>
