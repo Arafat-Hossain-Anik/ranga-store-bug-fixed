@@ -36,7 +36,12 @@ body {
   color: rgb(255, 106, 7);
 }
 .rating-text{
+  font-size: 18px;
+  color: rgb(226, 90, 0);
   font-weight: 600;
+}
+.rating-count{
+  color:rgb(112, 112, 112);
 }
 /*----------right side fixed-cart design-----------*/
 .cart {

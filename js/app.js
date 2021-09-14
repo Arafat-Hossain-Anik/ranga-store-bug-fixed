@@ -37,8 +37,8 @@ const showProducts = (products) => {
       <div class='card-body'>
         <h5>${product.title}</h5>
         <p>Category: ${product.category}</p>
-        <p class='rating'><span class='rating-text'>${product.rating.rate}</span> ${ratings.join(' ')} 
-        <span class='rating-text'>(${product.rating.count})</span></p>
+        <p class='rating'><span class='rating-text'>Ratings: ${product.rating.rate}</span> ${ratings.join(' ')} 
+        <span class='rating-count'>(${product.rating.count})</span></p>
         <h5>Price: $ ${product.price}</h5>
       </div>
         <div class="pb-3">
