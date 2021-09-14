@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Omni-Store</title>
+  <title>Omni-Shop</title>
   <link rel="stylesheet" href="./css/style.css" />
   <!-- Latest compiled and minified CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -21,32 +21,32 @@
 </head>
 
 <body>
-  <header>
-    <h1 class="web-store-name text-center">
-      <i class="bi bi-star-fill"></i>
-      Welcome To Omni-Store
+  <!-- header section contains title and search option -->
+  <header class="text-center">
+    <!-- title -->
+    <h1 class="text-success p-2 pb-0">
+      Welcome To Omni-Shop.Com
     </h1>
-  </header>
-  <main class="main">
-    <!-- <div class="search-field text-center"> -->
-    <div class="input-group w-50 mx-auto mb-5">
-      <!--search-box-->
-      <!-- <input id="input-field" class="search-field" type="text" />
-        <button type="button" class="btn btn-primary search-button" data-toggle="button" aria-pressed="false"
-          autocomplete="off" id="search-btn" onclick="loadProducts()">
-          Search
-        </button> -->
+    <!-- sub title -->
+    <h5 class=" text-secondary pb-2 sub-title">
+      All You Want Is Here
+    </h5>
+    <!-- search div -->
+    <div class="input-group w-50 mx-auto">
       <input type="text" class="form-control" placeholder="Search Here What You Want!" aria-label="search-here"
         aria-describedby="button-addon2">
-      <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+      <button class="btn btn-outline-success" type="button" id="button-addon2">Search</button>
     </div>
+  </header>
+  <!-- main content -->
+  <main class="main">
     <!-- </div> -->
-    <div class="row">
-      <div class="col-md-9 col-lg-9 col-sm-7 mb-5">
+    <div class="row mt-5">
+      <div class="col-sm-6 col-md-9 col-lg-9 mb-5">
         <div id="all-products" class="row g-4 ps-4">
         </div>
       </div>
-      <div class="col-md-3 col-lg-3 col-sm-5 cart-main">
+      <div class="col-sm-6 col-md-3 col-lg-3 cart-main">
         <div class="cart" id="my-cart">
           <table class="table">
             <thead>
@@ -91,7 +91,7 @@
             </tbody>
           </table>
           <div class="parces text-center">
-            <button class="btn btn-primary text-center">Buy Now</button>
+            <button class="btn btn-success text-center">Buy Now</button>
           </div>
         </div>
       </div>

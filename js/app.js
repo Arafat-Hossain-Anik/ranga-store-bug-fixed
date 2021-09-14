@@ -34,14 +34,14 @@ const showProducts = (products) => {
         <img class="product-image" src=${image}></img>
       </div>
       <div class='card-body'>
-        <h5>${product.title}</h5>
+        <h5 style="height:100px">${product.title}</h5>
         <p>Category: ${product.category}</p>
         <p class='rating'><span class='rating-text'>${product.rating.rate}</span> ${ratings.join(' ')} 
         <span class='rating-text'>(${product.rating.count})</span></p>
         <h5>Price: $ ${product.price}</h5>
       </div>
         <div class="pb-3">
-          <button onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="buy-now btn btn-success">add to cart</button>
+          <button onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="buy-now btn btn-success">Add To Cart</button>
           <button id="details-btn" class="btn btn-danger">Details</button>
         </div>
     </div>`;
