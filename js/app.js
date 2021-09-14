@@ -35,11 +35,11 @@ const showProducts = (products) => {
         <img class="product-image" src=${image}></img>
       </div>
       <div class='card-body'>
-        <h5>${product.title}</h5>
+        <h4>${product.title}</h4>
         <p>Category: ${product.category}</p>
         <p class='rating'><span class='rating-text'>Ratings: ${product.rating.rate}</span> ${ratings.join(' ')} 
         <span class='rating-count'>(${product.rating.count})</span></p>
-        <h5>Price: $ ${product.price}</h5>
+        <h4>Price: $ ${product.price}</h4>
       </div>
         <div class="pb-3">
           <button onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="buy-now btn btn-success">Add To Cart</button>
